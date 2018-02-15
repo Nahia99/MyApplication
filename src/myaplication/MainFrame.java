@@ -29,6 +29,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new java.awt.GridLayout());
@@ -43,6 +44,9 @@ public class MainFrame extends javax.swing.JFrame {
 
         jButton2.setText("Button 2");
         getContentPane().add(jButton2);
+
+        jButton3.setText("Button 3");
+        getContentPane().add(jButton3);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -90,5 +94,6 @@ public class MainFrame extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     // End of variables declaration//GEN-END:variables
 }
