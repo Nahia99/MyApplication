@@ -16,6 +16,7 @@ public class SecondaryDialog extends javax.swing.JDialog {
     public SecondaryDialog(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
+        this.jLabel1.setText("Sakatutako botoia" + text);
     }
 
     /** This method is called from within the constructor to
